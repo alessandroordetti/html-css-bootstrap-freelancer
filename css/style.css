@@ -6,8 +6,63 @@ header {
     background-color: #2c3e50;
 }
 
-.jumbotron.container-fluid {
+.jumbotron.container-fluid, .about-us.container-fluid, section .container-fluid {
     background-color: #1abc9c;
 }
 
+.my-header-padding {
+    padding: 20px;
+}
+
+.my-img-padding {
+    padding: 40px;
+}
+
+.portfolio.container-fluid {
+    background-color: white;
+}
+
+.portfolio, .contact-me {
+    color: black;
+}
+
+.portfolio > .container, .contact-me {
+    padding-top: 50px;
+}
+
+.my-border-radius-card {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.card {
+    border: none;
+}
+
+.my-button {
+font-size: .8rem;
+background-color: #1abc9c;
+border: 1px solid white;
+color: white;
+}
+
+.my-about-us-padding, .my-jumbotron-padding {
+    padding: 3rem;
+}
+
+.contact-me ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.contact-me ul li:last-child {
+    padding-bottom: 6rem;
+}
 
