@@ -85,16 +85,26 @@ footer {
     background-color: #3a546d;
 }
 
-.social-ul ul {
+.around-the-web ul {
     list-style: none;
-    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
 }
 
-.social-ul li {
+.around-the-web li {
     border: 0.05rem solid;
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
     text-align: center;
     line-height: 2rem;
+}
+
+footer section:nth-child(2) {
+    background-color: rgb(44, 62, 80);
+}
+
+footer section:nth-child(2) p {
+    padding: 2rem;
 }
