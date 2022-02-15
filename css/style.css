@@ -26,6 +26,10 @@ header {
     padding: 40px;
 }
 
+.info p {
+    font-size: xx-large;
+}
+
 .portfolio.container-fluid {
     background-color: white;
 }
